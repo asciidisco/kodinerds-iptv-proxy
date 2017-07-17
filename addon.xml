@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.service.iptv-proxy" name="IPTV Proxy" version="0.1.0" provider-name="asciidisco">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">IPTV Proxy</summary>
+    <description lang="de">IPTV Proxy für legale TV streams</description>
+    <summary lang="en">IPTV Proxy</summary>
+    <description lang="en">IPTV Proxy for legal TV streams</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
